@@ -1,0 +1,18 @@
+Create a shoe store data base
+/** Shoe store
+Nikes (4)
+Adidas (3)
+Pumas (2)
+Vans (6)
+Sketchers (5)
+**/
+CREATE TABLE Shoe  (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO Shoe VALUES (1, "Nikes",4);
+INSERT INTO Shoe VALUES (2, "Adidas",3);
+INSERT INTO Shoe VALUES (3, "Pumas",2);
+INSERT INTO Shoe VALUES (4, "Vans",6);
+INSERT INTO Shoe VALUES (5, "Sketchers",5);
+SELECT * FROM shoe 
+display order by quanity 
+ORDER BY quantity
